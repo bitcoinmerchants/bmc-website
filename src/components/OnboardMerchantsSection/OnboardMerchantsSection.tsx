@@ -11,7 +11,7 @@ const OnboardMerchantsSection = () => {
             py={{ base: "60px", md: "80px", lg: "100px" }}
             px={{ base: "20px", md: "40px", lg: "60px" }}
         >
-            <Container maxW="1300px">
+            <Container maxW="1250px">
                 <Flex 
                     direction={{ base: "column", lg: "row" }}
                     align="center"
@@ -81,5 +81,6 @@ const OnboardMerchantsSection = () => {
 };
 
 export default OnboardMerchantsSection;
+
 
 

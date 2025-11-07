@@ -10,7 +10,7 @@ const CreditCardSection = () => {
             py={{ base: "60px", md: "80px", lg: "100px" }}
             px={{ base: "20px", md: "40px", lg: "60px" }}
         >
-            <Container maxW="1300px">
+            <Container maxW="1250px">
                 <Flex 
                     direction={{ base: "column", lg: "row" }}
                     align="center"
@@ -20,12 +20,12 @@ const CreditCardSection = () => {
                     {/* Left Side - Text Content */}
                     <Box 
                         flex="1" 
-                        maxW={{ base: "100%", lg: "600px" }}
+                        maxW={{ base: "100%", lg: "450px" }}
                     >
                         <Heading 
                             as="h2"
-                            fontSize={{ base: "32px", md: "40px", lg: "48px" }}
-                            fontWeight="900"
+                            fontSize={{ base: "32px", md: "40px", lg: "32px" }}
+                            fontWeight="700"
                             lineHeight="1.2"
                             mb={6}
                             color="black"
@@ -34,7 +34,7 @@ const CreditCardSection = () => {
                         </Heading>
 
                         <Text 
-                            fontSize={{ base: "16px", md: "18px" }}
+                            fontSize={{ base: "16px", md: "20px" }}
                             lineHeight="1.7"
                             mb={5}
                             color="black"
@@ -43,7 +43,7 @@ const CreditCardSection = () => {
                         </Text>
 
                         <Text 
-                            fontSize={{ base: "16px", md: "18px" }}
+                            fontSize={{ base: "16px", md: "20px" }}
                             lineHeight="1.7"
                             color="black"
                         >
@@ -61,7 +61,7 @@ const CreditCardSection = () => {
                         <Image 
                             src="/assets/CreditCardImages/CreditCardImage.png"
                             alt="Broken credit card"
-                            maxW={{ base: "350px", md: "400px", lg: "500px" }}
+                            maxW={{ base: "350px", md: "400px", lg: "400px" }}
                             w="100%"
                             h="auto"
                         />
@@ -73,5 +73,6 @@ const CreditCardSection = () => {
 };
 
 export default CreditCardSection;
+
 
 

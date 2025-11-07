@@ -9,9 +9,9 @@ const Header = () => {
                 align="center"
                 justify="space-between"
                 wrap="nowrap" 
-                padding={{ base: "0.5rem 1rem", md: "1.5rem 2rem", lg: "1.5rem 3rem" }}
+                padding={{ base: "0.5rem 1rem", md: "1.5rem 2rem", lg: "2.5rem 3rem" }}
                 color="gray.800"
-                maxW="1500px"
+                maxW="1450px"
                 mx="auto"
             >
                 {/* Logo Section */}

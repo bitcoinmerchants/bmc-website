@@ -5,29 +5,29 @@ import { Box, Heading, Text, Flex, Container, Link, UnorderedList, ListItem, Ima
 
 const AcceptBitcoinSection = () => {
     return (
-        <Box 
-            bg="#F5F5F5" 
+        <Box
+            bg="white"
             py={{ base: "60px", md: "80px", lg: "100px" }}
             px={{ base: "20px", md: "40px", lg: "60px" }}
         >
-            <Container maxW="1300px">
+            <Container maxW="1250px">
                 {/* Main Heading */}
-                <Heading 
+                <Heading
                     as="h2"
-                    fontSize={{ base: "32px", md: "40px", lg: "48px" }}
-                    fontWeight="900"
+                    fontSize={{ base: "32px", md: "40px", lg: "32px" }}
+                    fontWeight="700"
                     lineHeight="1.2"
                     mb={{ base: "30px", md: "40px" }}
                     color="black"
-                    maxW="600px"
+                    maxW="450px"
                 >
                     Meet some of the many ways to accept bitcoin.
                 </Heading>
 
                 {/* Top Section - Square intro */}
-                <Box mb={{ base: "30px", md: "40px" }}>
-                    <Text 
-                        fontSize={{ base: "16px", md: "18px" }}
+                <Box mb={{ base: "30px", md: "40px" }} maxW="450px">
+                    <Text
+                        fontSize={{ base: "16px", md: "20px" }}
                         lineHeight="1.6"
                         mb={3}
                         color="black"
@@ -35,15 +35,15 @@ const AcceptBitcoinSection = () => {
                         <Text as="span" fontWeight="700">If you already use Square</Text>, you can start accepting bitcoin today with just a few taps.
                     </Text>
 
-                    <Text 
-                        fontSize={{ base: "16px", md: "18px" }}
+                    <Text
+                        fontSize={{ base: "16px", md: "20px" }}
                         lineHeight="1.6"
                         color="black"
                     >
                         Not a Square merchant?{' '}
-                        <Link 
-                            href="#" 
-                            color="black" 
+                        <Link
+                            href="#"
+                            color="black"
                             fontWeight="700"
                             textDecoration="underline"
                             _hover={{ color: "#00A651" }}
@@ -56,7 +56,7 @@ const AcceptBitcoinSection = () => {
 
                 {/* Square Logo */}
                 <Box mb={{ base: "30px", md: "40px" }}>
-                    <Image 
+                    <Image
                         src="/assets/CompanyImages/squareLogo.png"
                         alt="Square"
                         maxW="180px"
@@ -64,18 +64,16 @@ const AcceptBitcoinSection = () => {
                     />
                 </Box>
 
-                <Flex 
+                <Flex
                     direction={{ base: "column", lg: "row" }}
-                    gap={{ base: "30px", lg: "60px" }}
-                    align="flex-start"
+                    gap={{ base: "30px", lg: "100px" }}
                 >
                     {/* Left Column - Setup Steps */}
-                    <Box 
-                        flex="1"
-                        maxW={{ base: "100%", lg: "48%" }}
+                    <Box
+                        maxW={{ base: "100%", lg: "450px" }}
                     >
-                        <Text 
-                            fontSize={{ base: "16px", md: "18px" }}
+                        <Text
+                            fontSize={{ base: "16px", md: "20px" }}
                             lineHeight="1.7"
                             mb={4}
                             color="black"
@@ -83,8 +81,8 @@ const AcceptBitcoinSection = () => {
                             Bitcoin payments on Square registers integrate directly with your existing merchant setup.
                         </Text>
 
-                        <Text 
-                            fontSize={{ base: "16px", md: "18px" }}
+                        <Text
+                            fontSize={{ base: "16px", md: "20px" }}
                             lineHeight="1.7"
                             mb={4}
                             color="black"
@@ -93,27 +91,27 @@ const AcceptBitcoinSection = () => {
                             To turn them on, follow these steps:
                         </Text>
 
-                        <UnorderedList 
+                        <UnorderedList
                             spacing={3}
                             pl={5}
                             styleType="decimal"
                         >
-                            <ListItem 
-                                fontSize={{ base: "16px", md: "18px" }}
+                            <ListItem
+                                fontSize={{ base: "16px", md: "20px" }}
                                 lineHeight="1.7"
                                 color="black"
                             >
                                 You'll first need to complete the setup of your bitcoin wallet from the Banking {'>'} Bitcoin tab of Square Dashboard.
                             </ListItem>
-                            <ListItem 
-                                fontSize={{ base: "16px", md: "18px" }}
+                            <ListItem
+                                fontSize={{ base: "16px", md: "20px" }}
                                 lineHeight="1.7"
                                 color="black"
                             >
                                 Go to your Dashboard and click Accept bitcoin.
                             </ListItem>
-                            <ListItem 
-                                fontSize={{ base: "16px", md: "18px" }}
+                            <ListItem
+                                fontSize={{ base: "16px", md: "20px" }}
                                 lineHeight="1.7"
                                 color="black"
                             >
@@ -123,12 +121,12 @@ const AcceptBitcoinSection = () => {
                     </Box>
 
                     {/* Right Column - Payment Options */}
-                    <Box 
-                        flex="1"
-                        maxW={{ base: "100%", lg: "48%" }}
+                    <Box
+
+                        maxW={{ base: "100%", lg: "450px" }}
                     >
-                        <Text 
-                            fontSize={{ base: "16px", md: "18px" }}
+                        <Text
+                            fontSize={{ base: "16px", md: "20px" }}
                             lineHeight="1.7"
                             mb={5}
                             color="black"
@@ -136,17 +134,17 @@ const AcceptBitcoinSection = () => {
                             When customers pay with bitcoin, you can choose to have those payments flow directly into your bitcoin wallet or, if you prefer, have those payments automatically convert to dollars, which requires no new accounting or tax work. It's just business as usual, but without the 3% fees.
                         </Text>
 
-                        <Text 
-                            fontSize={{ base: "16px", md: "18px" }}
+                        <Text
+                            fontSize={{ base: "16px", md: "20px" }}
                             lineHeight="1.7"
                             mb={5}
                             color="black"
                         >
                             Learn more about bitcoin on{' '}
-                            <Link 
-                                href="https://squareup.com/us/en/payments/crypto" 
+                            <Link
+                                href="https://squareup.com/us/en/payments/crypto"
                                 isExternal
-                                color="black" 
+                                color="black"
                                 fontWeight="700"
                                 textDecoration="underline"
                                 _hover={{ color: "#00A651" }}
@@ -156,16 +154,16 @@ const AcceptBitcoinSection = () => {
                             .
                         </Text>
 
-                        <Text 
-                            fontSize={{ base: "16px", md: "18px" }}
+                        <Text
+                            fontSize={{ base: "16px", md: "20px" }}
                             lineHeight="1.7"
                             color="black"
                         >
                             Once you're up and running, you can get a Bitcoin Marketing Kit from the{' '}
-                            <Link 
-                                href="https://squareup.com/shop/bitcoin-marketing-kit" 
+                            <Link
+                                href="https://squareup.com/shop/bitcoin-marketing-kit"
                                 isExternal
-                                color="black" 
+                                color="black"
                                 fontWeight="700"
                                 textDecoration="underline"
                                 _hover={{ color: "#00A651" }}

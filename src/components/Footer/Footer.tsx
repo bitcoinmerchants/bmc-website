@@ -12,7 +12,7 @@ const Footer = () => {
             py={{ base: "40px", md: "60px" }}
             px={{ base: "20px", md: "40px", lg: "60px" }}
         >
-            <Container maxW="1300px">
+            <Container maxW="1250px">
                 <Flex 
                     direction={{ base: "column", md: "row" }}
                     justify="space-between"
@@ -103,5 +103,6 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 

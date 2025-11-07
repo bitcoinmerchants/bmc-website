@@ -11,12 +11,12 @@ const CommunitySection = () => {
             py={{ base: "60px", md: "80px", lg: "100px" }}
             px={{ base: "20px", md: "40px", lg: "60px" }}
         >
-            <Container maxW="1300px">
+            <Container maxW="1250px">
                 <Flex 
                     direction={{ base: "column", lg: "row" }}
                     align="center"
                     justify="space-between"
-                    gap={{ base: "40px", lg: "80px" }}
+                    gap={{ base: "40px", lg: "120px" }}
                 >
                     {/* Left Side - Store Icon */}
                     <Box 
@@ -28,7 +28,7 @@ const CommunitySection = () => {
                         <Image 
                             src="/assets/CommunityImages/CommunitySectionImage.png"
                             alt="Bitcoin merchant store"
-                            maxW={{ base: "300px", md: "350px", lg: "400px" }}
+                            maxW={{ base: "300px", md: "350px", lg: "500px" }}
                             w="100%"
                             h="auto"
                         />
@@ -37,12 +37,12 @@ const CommunitySection = () => {
                     {/* Right Side - Text Content */}
                     <Box 
                         flex="1" 
-                        maxW={{ base: "100%", lg: "600px" }}
+                        maxW={{ base: "100%", lg: "460px" }}
                     >
                         <Heading 
                             as="h2"
-                            fontSize={{ base: "32px", md: "40px", lg: "48px" }}
-                            fontWeight="900"
+                            fontSize={{ base: "32px", md: "40px", lg: "32px" }}
+                            fontWeight="700"
                             lineHeight="1.2"
                             mb={6}
                             color="black"
@@ -51,7 +51,7 @@ const CommunitySection = () => {
                         </Heading>
 
                         <Text 
-                            fontSize={{ base: "16px", md: "18px" }}
+                            fontSize={{ base: "16px", md: "20px" }}
                             lineHeight="1.7"
                             mb={5}
                             color="black"
@@ -60,7 +60,7 @@ const CommunitySection = () => {
                         </Text>
 
                         <Text 
-                            fontSize={{ base: "16px", md: "18px" }}
+                            fontSize={{ base: "16px", md: "20px" }}
                             lineHeight="1.7"
                             mb={8}
                             color="black"
@@ -74,8 +74,7 @@ const CommunitySection = () => {
                             fontSize="16px"
                             fontWeight="700"
                             textTransform="uppercase"
-                            width={{ base: "100%", sm: "auto" }}
-                            minW="300px"
+                            width={{base: "100%", md: "300px", lg: "460px"}}
                             height="46px"
                             borderRadius="5px"
                             border="2px solid #000"
@@ -91,8 +90,8 @@ const CommunitySection = () => {
                         <Box>
                             <Heading 
                                 as="h3"
-                                fontSize={{ base: "28px", md: "32px", lg: "36px" }}
-                                fontWeight="900"
+                                fontSize={{ base: "28px", md: "32px", lg: "32px" }}
+                                fontWeight="700"
                                 lineHeight="1.2"
                                 mb={5}
                                 color="black"
@@ -101,7 +100,7 @@ const CommunitySection = () => {
                             </Heading>
 
                             <Text 
-                                fontSize={{ base: "16px", md: "18px" }}
+                                fontSize={{ base: "16px", md: "20px" }}
                                 lineHeight="1.7"
                                 mb={5}
                                 color="black"
@@ -122,7 +121,7 @@ const CommunitySection = () => {
                             <Link 
                                 href="https://btcmap.org" 
                                 isExternal
-                                fontSize={{ base: "16px", md: "18px" }}
+                                fontSize={{ base: "16px", md: "20px" }}
                                 fontWeight="700"
                                 color="black"
                                 textDecoration="underline"
@@ -143,5 +142,6 @@ const CommunitySection = () => {
 };
 
 export default CommunitySection;
+
 
 

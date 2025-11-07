@@ -10,7 +10,7 @@ const FAQSection = () => {
             py={{ base: "60px", md: "80px", lg: "100px" }}
             px={{ base: "20px", md: "40px", lg: "60px" }}
         >
-            <Container maxW="1300px">
+            <Container maxW="1250px">
                 {/* Main Heading */}
                 <Heading 
                     as="h2"
@@ -267,5 +267,6 @@ const FAQSection = () => {
 };
 
 export default FAQSection;
+
 
 

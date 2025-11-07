@@ -11,7 +11,7 @@ const AlternativePaymentSection = () => {
             px={{ base: "20px", md: "40px", lg: "60px" }}
             borderTop="1px solid #E0E0E0"
         >
-            <Container maxW="1300px">
+            <Container maxW="1250px">
                 {/* Introduction Text */}
                 <Box mb={{ base: "40px", md: "50px" }}>
                     <Text 
@@ -156,5 +156,6 @@ const AlternativePaymentSection = () => {
 };
 
 export default AlternativePaymentSection;
+
 
 

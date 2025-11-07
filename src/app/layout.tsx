@@ -10,13 +10,6 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Bitcoin Merchant Community",
-    images: [
-      {
-        url: '/assets/og-image.png',
-        width: 1200,
-        height: 630,
-      },
-    ],
     url: 'https://www.bitcoin-merchant-community.com/',
   },
   twitter: {

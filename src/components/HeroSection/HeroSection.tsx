@@ -7,10 +7,10 @@ const HeroSection = () => {
     return (
         <Box 
             bg="white" 
-            py={{ base: "60px", md: "80px", lg: "100px" }}
+            py={{ base: "60px", md: "80px", lg: "80px" }}
             px={{ base: "20px", md: "40px", lg: "60px" }}
         >
-            <Container maxW="1300px">
+            <Container maxW="1250px">
                 <Flex 
                     direction={{ base: "column", lg: "row" }}
                     align="center"
@@ -24,11 +24,12 @@ const HeroSection = () => {
                     >
                         <Heading 
                             as="h1"
-                            fontSize={{ base: "40px", md: "56px", lg: "72px" }}
-                            fontWeight="900"
+                            fontSize={{ base: "40px", md: "56px", lg: "70px" }}
+                            fontWeight="700"
                             lineHeight="1.1"
-                            mb={6}
+                            mb={12}
                             color="black"
+                            maxW={{ base: "100%", lg: "550px" }}
                         >
                             We help small businesses keep more of their profit.
                         </Heading>
@@ -36,8 +37,9 @@ const HeroSection = () => {
                         <Text 
                             fontSize={{ base: "16px", md: "18px", lg: "20px" }}
                             lineHeight="1.6"
-                            mb={8}
+                            mb={12}
                             color="black"
+                            maxW={{ base: "100%", lg: "460px" }}
                         >
                             The Bitcoin Merchant Community is a growing global community of small businesses helping one another defeat{' '}
                             <Text as="span" color="#00A651" fontWeight="700">
@@ -46,9 +48,29 @@ const HeroSection = () => {
                             by accepting bitcoin.
                         </Text>
 
-                        {/* Buttons */}
-                        <Flex 
-                            gap={3} 
+                       
+                    </Box>
+
+                    {/* Right Side - 3D Image */}
+                    <Box 
+                        flex="1"
+                        display="flex"
+                        justifyContent="center"
+                        alignItems="center"
+                    >
+                        <Image 
+                            src="/assets/HeroImages/HeroImage.png"
+                            alt="3% melting"
+                            maxW={{ base: "500px", md: "400px", lg: "800px" }}
+                            w="100%"
+                            h="auto"
+                        />
+                    </Box>
+                </Flex>
+                 {/* Buttons */}
+                 <Flex 
+                            gap={{ base: "20px", md: "50px", lg: "20px" }} 
+                            mt={{ base: "40px", md: "50px", lg: "20px" }}
                             direction="row"
                             flexWrap="wrap"
                             align="center"
@@ -56,10 +78,10 @@ const HeroSection = () => {
                             <Button
                                 bg="#FFC533"
                                 color="black"
-                                fontSize="16px"
+                                fontSize={{ base: "14px", md: "16px", lg: "16px" }}
                                 fontWeight="700"
                                 textTransform="uppercase"
-                                width="326px"
+                                width={{ base: "100%", md: "280px", lg: "326px" }}
                                 height="46px"
                                 borderRadius="5px"
                                 border="2px solid #000"
@@ -76,10 +98,10 @@ const HeroSection = () => {
                             <Button
                                 bg="white"
                                 color="black"
-                                fontSize="16px"
+                                fontSize={{ base: "14px", md: "16px", lg: "16px" }}
                                 fontWeight="700"
                                 textTransform="uppercase"
-                                width="326px"
+                                width={{ base: "100%", md: "280px", lg: "326px" }}
                                 height="46px"
                                 borderRadius="5px"
                                 border="2px solid #000"
@@ -93,24 +115,6 @@ const HeroSection = () => {
                                 JOIN OUR FACEBOOK COMMUNITY
                             </Button>
                         </Flex>
-                    </Box>
-
-                    {/* Right Side - 3D Image */}
-                    <Box 
-                        flex="1"
-                        display="flex"
-                        justifyContent="center"
-                        alignItems="center"
-                    >
-                        <Image 
-                            src="/assets/HeroImages/HeroImage.png"
-                            alt="3% melting"
-                            maxW={{ base: "500px", md: "400px", lg: "750px" }}
-                            w="100%"
-                            h="auto"
-                        />
-                    </Box>
-                </Flex>
             </Container>
         </Box>
     );

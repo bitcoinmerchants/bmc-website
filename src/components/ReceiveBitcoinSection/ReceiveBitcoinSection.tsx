@@ -10,22 +10,22 @@ const ReceiveBitcoinSection = () => {
             py={{ base: "60px", md: "80px", lg: "100px" }}
             px={{ base: "20px", md: "40px", lg: "60px" }}
         >
-            <Container maxW="1300px">
+            <Container maxW="1250px">
                 <Flex 
                     direction={{ base: "column", lg: "row" }}
                     align="center"
                     justify="space-between"
-                    gap={{ base: "40px", lg: "80px" }}
+                    gap={{ base: "40px", lg: "120px" }}
                 >
                     {/* Left Side - Text Content */}
                     <Box 
                         flex="1" 
-                        maxW={{ base: "100%", lg: "500px" }}
+                        maxW={{ base: "100%", lg: "440px" }}
                     >
                         <Heading 
                             as="h2"
-                            fontSize={{ base: "32px", md: "40px", lg: "48px" }}
-                            fontWeight="900"
+                            fontSize={{ base: "32px", md: "32px", lg: "32px" }}
+                            fontWeight="700"
                             lineHeight="1.2"
                             mb={6}
                             color="black"
@@ -34,7 +34,7 @@ const ReceiveBitcoinSection = () => {
                         </Heading>
 
                         <Text 
-                            fontSize={{ base: "16px", md: "18px" }}
+                            fontSize={{ base: "16px", md: "20px" }}
                             lineHeight="1.7"
                             mb={5}
                             color="black"
@@ -43,7 +43,7 @@ const ReceiveBitcoinSection = () => {
                         </Text>
 
                         <Text 
-                            fontSize={{ base: "16px", md: "18px" }}
+                            fontSize={{ base: "16px", md: "20px" }}
                             lineHeight="1.7"
                             color="black"
                         >
