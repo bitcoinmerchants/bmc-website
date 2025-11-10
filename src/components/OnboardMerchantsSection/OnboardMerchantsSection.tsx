@@ -29,7 +29,7 @@ const OnboardMerchantsSection = () => {
                         <Image 
                             src="/assets/OnboardMerchantsImages/AcceptBitcoinImage.svg"
                             alt="Accept Bitcoin sticker"
-                            maxW={{ base: "250px", md: "300px", lg: "300px", xl: "350px" }}
+                            maxW={{ base: "200px", sm: "250px", md: "300px", lg: "300px", xl: "350px" }}
                             w="100%"
                             h="auto"
                         />

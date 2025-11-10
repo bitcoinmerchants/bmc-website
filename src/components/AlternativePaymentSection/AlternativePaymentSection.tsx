@@ -68,7 +68,7 @@ const AlternativePaymentSection = () => {
                         </Text>
                     </Box>
 
-                    {/* Blink */}
+                    {/* Blink
                     <Box>
                         <Link 
                             href="https://www.blink.sv/"
@@ -93,7 +93,7 @@ const AlternativePaymentSection = () => {
                         >
                             Blink Wallet is a custodial bitcoin wallet for mobile with simple point-of-sale features and easy setup.
                         </Text>
-                    </Box>
+                    </Box> */}
 
                     {/* Zaprite */}
                     <Box>
@@ -122,7 +122,7 @@ const AlternativePaymentSection = () => {
                         </Text>
                     </Box>
 
-                    {/* Swiss Bitcoin Pay */}
+                    {/* Swiss Bitcoin Pay
                     <Box>
                         <Link 
                             href="https://swiss-bitcoin-pay.ch/"
@@ -147,7 +147,7 @@ const AlternativePaymentSection = () => {
                         >
                             Swiss Bitcoin Pay is an option that many EU merchants have adopted. It allows automatic conversions to fiat currency.
                         </Text>
-                    </Box>
+                    </Box> */}
                 </SimpleGrid>
 
                 {/* Bottom Section */}

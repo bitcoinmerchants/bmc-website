@@ -25,7 +25,8 @@ const Header = () => {
                     <Image 
                         src="/assets/HeaderImages/logo.svg" 
                         alt="Bitcoin Merchant Community Logo" 
-                        h={{ base: "40px", md: "50px", lg: "50px", xl: "60px" }} 
+                        h={{ base: "32px", sm: "36px", md: "50px", lg: "50px", xl: "60px" }}
+                        w="auto"
                     />
                 </Flex>
 

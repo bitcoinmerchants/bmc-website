@@ -56,6 +56,23 @@ export function Providers({ children }: { children: React.ReactNode }) {
           ::-webkit-scrollbar {
           display: none; /* For Chrome, Safari, and Opera */
           }
+
+          /* Optimize images for iOS/WebKit */
+          img {
+            -webkit-user-drag: none;
+            -webkit-touch-callout: none;
+            -webkit-tap-highlight-color: transparent;
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: crisp-edges;
+          }
+
+          /* Smooth scrolling and better performance on iOS */
+          * {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+          }
         `}
       />
     </CacheProvider>

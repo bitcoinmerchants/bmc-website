@@ -133,7 +133,7 @@ const CommunitySection = () => {
                         <Image 
                             src="/assets/CommunityImages/CommunitySectionImage.svg"
                             alt="Bitcoin merchant store"
-                            maxW={{ base: "350px", md: "350px", lg: "350px", xl: "350px" }}
+                            maxW={{ base: "250px", sm: "300px", md: "350px", lg: "350px", xl: "350px" }}
                             w="100%"
                             h="auto"
                         />

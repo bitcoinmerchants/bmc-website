@@ -62,7 +62,7 @@ const HeroSection = () => {
                         <Image 
                             src="/assets/HeroImages/HeroImage.svg"
                             alt="3% melting"
-                            maxW={{ base: "600px", md: "600px", lg: "600px", xl: "800px" }}
+                            maxW={{ base: "280px", sm: "400px", md: "500px", lg: "600px", xl: "800px" }}
                             w="100%"
                             h="auto"
                         />

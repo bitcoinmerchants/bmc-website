@@ -61,7 +61,7 @@ const CreditCardSection = () => {
                         <Image 
                             src="/assets/CreditCardImages/CreditCardImage.svg"
                             alt="Broken credit card"
-                            maxW={{ base: "350px", md: "400px", lg: "450px", xl: "400px" }}
+                            maxW={{ base: "250px", sm: "300px", md: "400px", lg: "450px", xl: "400px" }}
                             w="100%"
                             h="auto"
                         />

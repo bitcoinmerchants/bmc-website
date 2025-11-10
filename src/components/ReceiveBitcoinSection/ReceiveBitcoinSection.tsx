@@ -61,7 +61,7 @@ const ReceiveBitcoinSection = () => {
                         <Image 
                             src="/assets/ReceiveBitcoinImages/BitcoinButtonImage.svg"
                             alt="Bitcoin key"
-                            maxW={{ base: "300px", md: "350px", lg: "350px", xl: "400px" }}
+                            maxW={{ base: "220px", sm: "280px", md: "350px", lg: "350px", xl: "400px" }}
                             w="100%"
                             h="auto"
                         />
