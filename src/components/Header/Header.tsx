@@ -10,6 +10,7 @@ const Header = () => {
             left={{ base: "auto", xl: "0" }}
             right={{ base: "auto", xl: "0" }}
             zIndex={{ base: "auto", xl: "1000" }}
+            px={{ base: "20px", md: "40px", lg: "40px", xl: "60px" }}
         >
             <Container>
                 <Flex
@@ -17,7 +18,7 @@ const Header = () => {
                     align="center"
                     justify="space-between"
                     wrap="nowrap" 
-                    padding={{ base: "1rem 1rem", md: "1.5rem 2rem", lg: "1.5rem 2rem", xl: "1.5rem 0rem" }}
+                    padding={{ base: "1rem 0rem", md: "1.5rem 0rem" }}
                     color="gray.800"
                 >
                 {/* Logo Section */}
