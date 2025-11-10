@@ -8,6 +8,15 @@ const fonts = {
   body: "'Inter', sans-serif",
 };
 
+const breakpoints = {
+  base: "0px",
+  sm: "480px",
+  md: "768px",
+  lg: "1024px",  // iPad Pro and larger tablets
+  xl: "1280px",  // Desktop
+  "2xl": "1536px",
+};
+
 const components = {
   Heading: {
     baseStyle: {
@@ -19,9 +28,14 @@ const components = {
       fontFamily: "'Inter', sans-serif",
     },
   },
+  Container: {
+    baseStyle: {
+      maxW: "1250px",
+    },
+  },
 };
 
-export const theme = extendTheme({ fonts, components });
+export const theme = extendTheme({ fonts, breakpoints, components });
 
 export function Providers({ children }: { children: React.ReactNode }) {
   return (
@@ -41,14 +55,6 @@ export function Providers({ children }: { children: React.ReactNode }) {
 
           ::-webkit-scrollbar {
           display: none; /* For Chrome, Safari, and Opera */
-          }
-
-          /* Disable text selection globally */
-          * {
-            user-select: none;
-            -webkit-user-select: none; /* For Safari */
-            -moz-user-select: none; /* For Firefox */
-            -ms-user-select: none; /* For IE10+ */
           }
         `}
       />

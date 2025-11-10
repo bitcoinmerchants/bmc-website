@@ -11,11 +11,11 @@ const AcceptBitcoinSection = () => {
             py={{ base: "60px", md: "80px", lg: "100px" }}
             px={{ base: "20px", md: "40px", lg: "60px" }}
         >
-            <Container maxW="1250px">
+            <Container>
                 {/* Main Heading */}
                 <Heading
                     as="h2"
-                    fontSize={{ base: "32px", md: "40px", lg: "32px" }}
+                    fontSize={{ base: "32px", md: "40px", lg: "40px", xl: "32px" }}
                     fontWeight="700"
                     lineHeight="1.2"
                     mb={{ base: "30px", md: "40px" }}
@@ -29,7 +29,7 @@ const AcceptBitcoinSection = () => {
                 <Box mb={{ base: "30px", md: "40px" }} maxW="450px">
                     <Text
                         fontSize={{ base: "16px", md: "20px" }}
-                        lineHeight="1.6"
+                        lineHeight="1.4"
                         mb={3}
                         color="black"
                     >
@@ -38,7 +38,7 @@ const AcceptBitcoinSection = () => {
 
                     <Text
                         fontSize={{ base: "16px", md: "20px" }}
-                        lineHeight="1.6"
+                        lineHeight="1.4"
                         color="black"
                     >
                         Not a Square merchant?{' '}
@@ -66,16 +66,16 @@ const AcceptBitcoinSection = () => {
                 </Box>
 
                 <Flex
-                    direction={{ base: "column", lg: "row" }}
-                    gap={{ base: "40px", md: "50px", lg: "200px" }}
+                    direction={{ base: "column", xl: "row" }}
+                    gap={{ base: "40px", md: "50px", lg: "50px", xl: "200px" }}
                 >
                     {/* Left Column - Setup Steps */}
                     <Box
-                        maxW={{ base: "100%", lg: "450px" }}
+                        maxW={{ base: "100%", xl: "450px" }}
                     >
                         <Text
                             fontSize={{ base: "16px", md: "20px" }}
-                            lineHeight="1.7"
+                            lineHeight="1.4"
                             mb={4}
                             color="black"
                         >
@@ -84,7 +84,7 @@ const AcceptBitcoinSection = () => {
 
                         <Text
                             fontSize={{ base: "16px", md: "20px" }}
-                            lineHeight="1.7"
+                            lineHeight="1.4"
                             mb={4}
                             color="black"
                             fontWeight="700"
@@ -99,21 +99,21 @@ const AcceptBitcoinSection = () => {
                         >
                             <ListItem
                                 fontSize={{ base: "16px", md: "20px" }}
-                                lineHeight="1.7"
+                                lineHeight="1.4"
                                 color="black"
                             >
                                 You'll first need to complete the setup of your bitcoin wallet from the Banking {'>'} Bitcoin tab of Square Dashboard.
                             </ListItem>
                             <ListItem
                                 fontSize={{ base: "16px", md: "20px" }}
-                                lineHeight="1.7"
+                                lineHeight="1.4"
                                 color="black"
                             >
-                                Next to Bitcoin, tap Activate and complete 2-step verification if you haven’t already. 
+                                Next to Bitcoin, tap Activate and complete 2-step verification if you haven't already. 
                             </ListItem>
                             <ListItem
                                 fontSize={{ base: "16px", md: "20px" }}
-                                lineHeight="1.7"
+                                lineHeight="1.4"
                                 color="black"
                             >
                                 Choose how you'd like to receive payment.
@@ -124,11 +124,11 @@ const AcceptBitcoinSection = () => {
                     {/* Right Column - Payment Options */}
                     <Box
 
-                        maxW={{ base: "100%", lg: "450px" }}
+                        maxW={{ base: "100%", xl: "450px" }}
                     >
                         <Text
                             fontSize={{ base: "16px", md: "20px" }}
-                            lineHeight="1.7"
+                            lineHeight="1.4"
                             mb={5}
                             color="black"
                         >
@@ -137,7 +137,7 @@ const AcceptBitcoinSection = () => {
 
                         <Text
                             fontSize={{ base: "16px", md: "20px" }}
-                            lineHeight="1.7"
+                            lineHeight="1.4"
                             mb={5}
                             color="black"
                         >
@@ -157,7 +157,7 @@ const AcceptBitcoinSection = () => {
 
                         <Text
                             fontSize={{ base: "16px", md: "20px" }}
-                            lineHeight="1.7"
+                            lineHeight="1.4"
                             color="black"
                         >
                             Once you're up and running, you can get a Bitcoin Marketing Kit from the{' '}

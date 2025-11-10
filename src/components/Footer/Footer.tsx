@@ -12,7 +12,7 @@ const Footer = () => {
             py={{ base: "40px", md: "60px" }}
             px={{ base: "20px", md: "40px", lg: "60px" }}
         >
-            <Container maxW="1250px">
+            <Container>
                 <Flex 
                     direction={{ base: "column", md: "row" }}
                     justify="space-between"
@@ -33,7 +33,7 @@ const Footer = () => {
                         {/* Description */}
                         <Text 
                             fontSize={{ base: "14px", md: "15px" }}
-                            lineHeight="1.6"
+                            lineHeight="1.4"
                             mb={4}
                             color="black"
                         >
@@ -42,7 +42,7 @@ const Footer = () => {
 
                         <Text 
                             fontSize={{ base: "14px", md: "15px" }}
-                            lineHeight="1.6"
+                            lineHeight="1.4"
                             color="black"
                         >
                             It's supported by Block's Spiral division, which funds open-source bitcoin tools and promotes bitcoin adoption globally.
@@ -63,7 +63,7 @@ const Footer = () => {
                                 />
                             </Link>
 
-                            {/* X (Twitter) */}
+                            {/* X (Twitter)
                             <Link 
                                 href="https://x.com/btc_merchants" 
                                 isExternal
@@ -75,7 +75,7 @@ const Footer = () => {
                                     boxSize={{ base: "32px", md: "36px" }}
                                     color="black"
                                 />
-                            </Link>
+                            </Link> */}
 
                             {/* GitHub */}
                             <Link 

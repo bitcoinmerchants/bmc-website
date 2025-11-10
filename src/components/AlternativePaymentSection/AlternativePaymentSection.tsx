@@ -12,12 +12,12 @@ const AlternativePaymentSection = () => {
             px={{ base: "20px", md: "40px", lg: "60px" }}
             borderTop="1px solid #E0E0E0"
         >
-            <Container maxW="1250px">
+            <Container>
                 {/* Introduction Text */}
                 <Box mb={{ base: "40px", md: "50px" }}>
                     <Text 
                         fontSize={{ base: "16px", md: "20px" }}
-                        lineHeight="1.7"
+                        lineHeight="1.4"
                         mb={5}
                         color="black"
                         maxW="450px"
@@ -27,7 +27,7 @@ const AlternativePaymentSection = () => {
 
                     <Text 
                         fontSize={{ base: "16px", md: "20px" }}
-                        lineHeight="1.7"
+                        lineHeight="1.4"
                         color="black"
                         maxW="450px"
                     >
@@ -60,7 +60,7 @@ const AlternativePaymentSection = () => {
                         </Link>
                         <Text 
                             fontSize={{ base: "16px", md: "20px" }}
-                            lineHeight="1.7"
+                            lineHeight="1.4"
                             color="black"
                             maxW="450px"
                         >
@@ -87,7 +87,7 @@ const AlternativePaymentSection = () => {
                         </Link>
                         <Text 
                             fontSize={{ base: "16px", md: "20px" }}
-                            lineHeight="1.7"
+                            lineHeight="1.4"
                             color="black"
                             maxW="450px"
                         >
@@ -114,7 +114,7 @@ const AlternativePaymentSection = () => {
                         </Link>
                         <Text 
                             fontSize={{ base: "16px", md: "20px" }}
-                            lineHeight="1.7"
+                            lineHeight="1.4"
                             color="black"
                             maxW="450px"
                         >
@@ -141,7 +141,7 @@ const AlternativePaymentSection = () => {
                         </Link>
                         <Text 
                             fontSize={{ base: "16px", md: "20px" }}
-                            lineHeight="1.7"
+                            lineHeight="1.4"
                             color="black"
                             maxW="450px"
                         >
@@ -154,7 +154,7 @@ const AlternativePaymentSection = () => {
                 <Box>
                     <Text 
                         fontSize={{ base: "16px", md: "20px" }}
-                        lineHeight="1.7"
+                        lineHeight="1.4"
                         mb={5}
                         color="black"
                         maxW="450px"
@@ -174,7 +174,7 @@ const AlternativePaymentSection = () => {
 
                     <Text 
                         fontSize={{ base: "16px", md: "20px" }}
-                        lineHeight="1.7"
+                        lineHeight="1.4"
                         color="black"
                         maxW="450px"
                     >

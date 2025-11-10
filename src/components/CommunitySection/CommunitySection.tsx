@@ -11,37 +11,22 @@ const CommunitySection = () => {
             py={{ base: "60px", md: "80px", lg: "100px" }}
             px={{ base: "20px", md: "40px", lg: "60px" }}
         >
-            <Container maxW="1250px">
+            <Container>
                 <Flex 
-                    direction={{ base: "column", lg: "row" }}
+                    direction={{ base: "column", xl: "row" }}
                     align="center"
                     justify="space-between"
-                    gap={{ base: "40px", lg: "120px" }}
+                    gap={{ base: "40px", lg: "40px", xl: "120px" }}
                 >
-                    {/* Left Side - Store Icon */}
-                    <Box 
-                        flex="1"
-                        display="flex"
-                        justifyContent="center"
-                        alignItems="center"
-                    >
-                        <Image 
-                            src="/assets/CommunityImages/CommunitySectionImage.svg"
-                            alt="Bitcoin merchant store"
-                            maxW={{ base: "350px", md: "350px", lg: "350px" }}
-                            w="100%"
-                            h="auto"
-                        />
-                    </Box>
-
-                    {/* Right Side - Text Content */}
+                    {/* Text Content */}
                     <Box 
                         flex="1" 
-                        maxW={{ base: "100%", lg: "460px" }}
+                        maxW={{ base: "100%", xl: "460px" }}
+                        order={{ base: 1, xl: 2 }}
                     >
                         <Heading 
                             as="h2"
-                            fontSize={{ base: "32px", md: "40px", lg: "32px" }}
+                            fontSize={{ base: "32px", md: "40px", lg: "40px", xl: "32px" }}
                             fontWeight="700"
                             lineHeight="1.2"
                             mb={6}
@@ -52,7 +37,7 @@ const CommunitySection = () => {
 
                         <Text 
                             fontSize={{ base: "16px", md: "20px" }}
-                            lineHeight="1.7"
+                            lineHeight="1.4"
                             mb={5}
                             color="black"
                         >
@@ -61,7 +46,7 @@ const CommunitySection = () => {
 
                         <Text 
                             fontSize={{ base: "16px", md: "20px" }}
-                            lineHeight="1.7"
+                            lineHeight="1.4"
                             mb={8}
                             color="black"
                         >
@@ -75,7 +60,7 @@ const CommunitySection = () => {
                             fontSize="16px"
                             fontWeight="700"
                             textTransform="uppercase"
-                            width={{base: "100%", md: "300px", lg: "460px"}}
+                            width={{base: "100%", md: "300px", lg: "300px", xl: "460px"}}
                             height="46px"
                             borderRadius="5px"
                             border="2px solid #000"
@@ -91,7 +76,7 @@ const CommunitySection = () => {
                         <Box>
                             <Heading 
                                 as="h3"
-                                fontSize={{ base: "28px", md: "32px", lg: "32px" }}
+                                fontSize={{ base: "28px", md: "32px", lg: "32px", xl: "32px" }}
                                 fontWeight="700"
                                 lineHeight="1.2"
                                 mb={5}
@@ -102,7 +87,7 @@ const CommunitySection = () => {
 
                             <Text 
                                 fontSize={{ base: "16px", md: "20px" }}
-                                lineHeight="1.7"
+                                lineHeight="1.4"
                                 mb={5}
                                 color="black"
                             >
@@ -135,6 +120,23 @@ const CommunitySection = () => {
                                 <ExternalLinkIcon />
                             </Link>
                         </Box>
+                    </Box>
+
+                    {/* Store Icon - Moved to bottom on mobile/tablet */}
+                    <Box 
+                        flex="1"
+                        display="flex"
+                        justifyContent="center"
+                        alignItems="center"
+                        order={{ base: 2, xl: 1 }}
+                    >
+                        <Image 
+                            src="/assets/CommunityImages/CommunitySectionImage.svg"
+                            alt="Bitcoin merchant store"
+                            maxW={{ base: "350px", md: "350px", lg: "350px", xl: "350px" }}
+                            w="100%"
+                            h="auto"
+                        />
                     </Box>
                 </Flex>
             </Container>

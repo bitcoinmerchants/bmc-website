@@ -10,21 +10,21 @@ const CreditCardSection = () => {
             py={{ base: "60px", md: "80px", lg: "100px" }}
             px={{ base: "20px", md: "40px", lg: "60px" }}
         >
-            <Container maxW="1250px">
+            <Container>
                 <Flex 
-                    direction={{ base: "column", lg: "row" }}
+                    direction={{ base: "column", xl: "row" }}
                     align="center"
                     justify="space-between"
-                    gap={{ base: "40px", lg: "80px" }}
+                    gap={{ base: "40px", lg: "40px", xl: "80px" }}
                 >
                     {/* Left Side - Text Content */}
                     <Box 
                         flex="1" 
-                        maxW={{ base: "100%", lg: "450px" }}
+                        maxW={{ base: "100%", xl: "450px" }}
                     >
                         <Heading 
                             as="h2"
-                            fontSize={{ base: "32px", md: "40px", lg: "32px" }}
+                            fontSize={{ base: "32px", md: "40px", lg: "40px", xl: "32px" }}
                             fontWeight="700"
                             lineHeight="1.2"
                             mb={6}
@@ -35,7 +35,7 @@ const CreditCardSection = () => {
 
                         <Text 
                             fontSize={{ base: "16px", md: "20px" }}
-                            lineHeight="1.7"
+                            lineHeight="1.4"
                             mb={5}
                             color="black"
                         >
@@ -44,7 +44,7 @@ const CreditCardSection = () => {
 
                         <Text 
                             fontSize={{ base: "16px", md: "20px" }}
-                            lineHeight="1.7"
+                            lineHeight="1.4"
                             color="black"
                         >
                             For some small businesses, this can mean paying 50% or more of their profits to card providers. Bitcoin, which is cash but digital, helps them fight back.
@@ -59,9 +59,9 @@ const CreditCardSection = () => {
                         alignItems="center"
                     >
                         <Image 
-                            src="/assets/CreditCardImages/CreditCardImage.png"
+                            src="/assets/CreditCardImages/CreditCardImage.svg"
                             alt="Broken credit card"
-                            maxW={{ base: "350px", md: "400px", lg: "400px" }}
+                            maxW={{ base: "350px", md: "400px", lg: "450px", xl: "400px" }}
                             w="100%"
                             h="auto"
                         />

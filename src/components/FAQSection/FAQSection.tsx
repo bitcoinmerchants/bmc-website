@@ -10,11 +10,11 @@ const FAQSection = () => {
             py={{ base: "60px", md: "80px", lg: "100px" }}
             px={{ base: "20px", md: "40px", lg: "60px" }}
         >
-            <Container maxW="1250px">
+            <Container>
                 {/* Main Heading */}
                 <Heading
                     as="h2"
-                    fontSize={{ base: "36px", md: "44px", lg: "32px" }}
+                    fontSize={{ base: "36px", md: "44px", lg: "44px", xl: "32px" }}
                     fontWeight="900"
                     lineHeight="1.2"
                     mb={{ base: "40px", md: "60px" }}
@@ -26,8 +26,8 @@ const FAQSection = () => {
 
                 {/* FAQ Grid - 2 columns */}
                 <SimpleGrid
-                    columns={{ base: 1, lg: 2 }}
-                    spacing={{ base: "40px", lg: "60px" }}
+                    columns={{ base: 1, xl: 2 }}
+                    spacing={{ base: "40px", xl: "60px" }}
                 >
                     {/* Left Column */}
                     <Box>
@@ -45,7 +45,7 @@ const FAQSection = () => {
                             </Heading>
                             <Text
                                 fontSize={{ base: "16px", md: "20px" }}
-                                maxW="450px" lineHeight="1.7"
+                                maxW="450px" lineHeight="1.4"
                                 color="black"
                             >
                                 Bitcoin is a secure digital currency that lets you send, spend, and save money without relying on banks or other third parties—just like cash.
@@ -67,10 +67,10 @@ const FAQSection = () => {
                             <Text
                                 fontSize={{ base: "16px", md: "20px" }}
                                 maxW="450px"
-                                lineHeight="1.7"
+                                lineHeight="1.4"
                                 color="black"
                             >
-                                You can accept bitcoin payments by offering customers a QR code invoice at checkout that they can scan to pay you from their bitcoin wallet instantly. It’s as simple as paying with a credit card—only on their phone.
+                                You can accept bitcoin payments by offering customers a QR code invoice at checkout that they can scan to pay you from their bitcoin wallet instantly. It's as simple as paying with a credit card—only on their phone.
                             </Text>
                         </Box>
 
@@ -89,7 +89,7 @@ const FAQSection = () => {
                             <Text
                                 fontSize={{ base: "16px", md: "20px" }}
                                 maxW="450px"
-                                lineHeight="1.7"
+                                lineHeight="1.4"
                                 mb={3}
                                 color="black"
                             >
@@ -98,7 +98,7 @@ const FAQSection = () => {
                             <Text
                                 fontSize={{ base: "16px", md: "20px" }}
                                 maxW="450px"
-                                lineHeight="1.7"
+                                lineHeight="1.4"
                                 mb={3}
                                 color="black"
                             >
@@ -118,7 +118,7 @@ const FAQSection = () => {
                             <Text
                                 fontSize={{ base: "16px", md: "20px" }}
                                 maxW="450px"
-                                lineHeight="1.7"
+                                lineHeight="1.4"
                                 color="black"
                             >
                                 On other systems, they generally range from 0.4% to 1%, but you will need to consult your software vendor for specifics. The big takeaway, though, is that bitcoin payment fees will never be as high as credit card fees.
@@ -140,19 +140,19 @@ const FAQSection = () => {
                             <Text
                                 fontSize={{ base: "16px", md: "20px" }}
                                 maxW="450px"
-                                lineHeight="1.7"
+                                lineHeight="1.4"
                                 mb={3}
                                 color="black"
                             >
-                                Bitcoin’s price relative to the US dollar, also known as its conversation rate, fluctuates often. Sometimes wildly. Whether you hold your bitcoin or convert it to local currency upon receiving a payment is ultimately your decision, as it should be.
+                                Bitcoin's price relative to the US dollar, also known as its conversation rate, fluctuates often. Sometimes wildly. Whether you hold your bitcoin or convert it to local currency upon receiving a payment is ultimately your decision, as it should be.
                             </Text>
                             <Text
                                 fontSize={{ base: "16px", md: "20px" }}
                                 maxW="450px"
-                                lineHeight="1.7"
+                                lineHeight="1.4"
                                 color="black"
                             >
-                                To limit exposure to bitcoin’s volatility, you can enable auto-conversions on your Square hardware you use to accept bitcoin payment. This will let you capture bitcoin’s foremost merchant benefit, avoiding 3% credit card fees, without exposure to short-term volatility.
+                                To limit exposure to bitcoin's volatility, you can enable auto-conversions on your Square hardware you use to accept bitcoin payment. This will let you capture bitcoin's foremost merchant benefit, avoiding 3% credit card fees, without exposure to short-term volatility.
                             </Text>
                         </Box>
                     </Box>
@@ -174,7 +174,7 @@ const FAQSection = () => {
                             <Text
                                 fontSize={{ base: "16px", md: "20px" }}
                                 maxW="490px"
-                                lineHeight="1.7"
+                                lineHeight="1.4"
                                 mb={3}
                                 color="black"
                             >
@@ -182,7 +182,7 @@ const FAQSection = () => {
                             </Text>
                             <Text
                                 fontSize={{ base: "16px", md: "20px" }}
-                                lineHeight="1.7"
+                                lineHeight="1.4"
                                 maxW="470px"
                                 mb={3}
                                 color="black"
@@ -192,7 +192,7 @@ const FAQSection = () => {
                             <Text
                                 fontSize={{ base: "16px", md: "20px" }}
                                 maxW="470px"
-                                lineHeight="1.7"
+                                lineHeight="1.4"
                                 color="black"
                             >
                                 Additionally, depending on where you live, if you are holding on to the bitcoin you receive, you may incur capital gains taxes when you sell.
@@ -227,7 +227,7 @@ const FAQSection = () => {
                                 fontSize={{ base: "16px", md: "20px" }}
                                 maxW="490px"
                                 mb={3}
-                                lineHeight="1.7"
+                                lineHeight="1.4"
                                 color="black"
                             >
                                 For bitcoin point-of-sale systems that support tipping, the tip amount (or percentage) will usually be defined by the customer before you generate a QR code invoice. The customer then pays the invoice in bitcoin for the purchase amount + tip, which you will receive instantly.
@@ -236,7 +236,7 @@ const FAQSection = () => {
                             <Text
                                 fontSize={{ base: "16px", md: "20px" }}
                                 maxW="490px"
-                                lineHeight="1.7"
+                                lineHeight="1.4"
                                 color="black"
                             >
 
@@ -260,16 +260,16 @@ const FAQSection = () => {
                                 fontSize={{ base: "16px", md: "20px" }}
                                 maxW="450px"
                                 mb={3}
-                                lineHeight="1.7"
+                                lineHeight="1.4"
                                 color="black"
                             >
-                                Alongside physical cash, bitcoin spenders will already view digital cash as the fairest way for merchants to get paid. Many will pay in bitcoin to do the right thing by you and by bitcoin’s growth as the best form of everyday money. 
+                                Alongside physical cash, bitcoin spenders will already view digital cash as the fairest way for merchants to get paid. Many will pay in bitcoin to do the right thing by you and by bitcoin's growth as the best form of everyday money. 
                             </Text>
 
                             <Text
                                 fontSize={{ base: "16px", md: "20px" }}
                                 maxW="450px"
-                                lineHeight="1.7"
+                                lineHeight="1.4"
                                 color="black"
                             >
                                 
@@ -292,7 +292,7 @@ But offering discounts for purchasing in bitcoin can be an obvious extra nudge t
                             <Text
                                 fontSize={{ base: "16px", md: "20px" }}
                                 maxW="450px"
-                                lineHeight="1.7"
+                                lineHeight="1.4"
                                 color="black"
                             >
                                 Ask the Bitcoin Merchant Community's{' '}

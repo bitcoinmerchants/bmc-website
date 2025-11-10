@@ -10,21 +10,21 @@ const ReceiveBitcoinSection = () => {
             py={{ base: "60px", md: "80px", lg: "100px" }}
             px={{ base: "20px", md: "40px", lg: "60px" }}
         >
-            <Container maxW="1250px">
+            <Container>
                 <Flex 
-                    direction={{ base: "column", lg: "row" }}
+                    direction={{ base: "column", xl: "row" }}
                     align="center"
                     justify="space-between"
-                    gap={{ base: "40px", lg: "120px" }}
+                    gap={{ base: "40px", lg: "40px", xl: "120px" }}
                 >
                     {/* Left Side - Text Content */}
                     <Box 
                         flex="1" 
-                        maxW={{ base: "100%", lg: "440px" }}
+                        maxW={{ base: "100%", xl: "440px" }}
                     >
                         <Heading 
                             as="h2"
-                            fontSize={{ base: "32px", md: "32px", lg: "32px" }}
+                            fontSize={{ base: "32px", md: "32px", lg: "32px", xl: "32px" }}
                             fontWeight="700"
                             lineHeight="1.2"
                             mb={6}
@@ -35,7 +35,7 @@ const ReceiveBitcoinSection = () => {
 
                         <Text 
                             fontSize={{ base: "16px", md: "20px" }}
-                            lineHeight="1.7"
+                            lineHeight="1.4"
                             mb={5}
                             color="black"
                         >
@@ -44,7 +44,7 @@ const ReceiveBitcoinSection = () => {
 
                         <Text 
                             fontSize={{ base: "16px", md: "20px" }}
-                            lineHeight="1.7"
+                            lineHeight="1.4"
                             color="black"
                         >
                             We can help you choose the one that's right for you, your staff, and your customers.
@@ -59,9 +59,9 @@ const ReceiveBitcoinSection = () => {
                         alignItems="center"
                     >
                         <Image 
-                            src="/assets/ReceiveBitcoinImages/BitcoinButtonImage.png"
+                            src="/assets/ReceiveBitcoinImages/BitcoinButtonImage.svg"
                             alt="Bitcoin key"
-                            maxW={{ base: "300px", md: "350px", lg: "400px" }}
+                            maxW={{ base: "300px", md: "350px", lg: "350px", xl: "400px" }}
                             w="100%"
                             h="auto"
                         />

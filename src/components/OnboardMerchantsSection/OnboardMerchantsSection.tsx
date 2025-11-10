@@ -12,12 +12,12 @@ const OnboardMerchantsSection = () => {
             py={{ base: "60px", md: "80px", lg: "100px" }}
             px={{ base: "20px", md: "40px", lg: "60px" }}
         >
-            <Container maxW="1250px">
+            <Container>
                 <Flex 
-                    direction={{ base: "column", lg: "row" }}
+                    direction={{ base: "column", xl: "row" }}
                     align="center"
                     justify="space-between"
-                    gap={{ base: "40px", lg: "80px" }}
+                    gap={{ base: "40px", lg: "40px", xl: "80px" }}
                 >
                     {/* Left Side - Accept Bitcoin Sticker Image */}
                     <Box 
@@ -27,9 +27,9 @@ const OnboardMerchantsSection = () => {
                         alignItems="center"
                     >
                         <Image 
-                            src="/assets/OnboardMerchantsImages/AcceptBitcoinImage.png"
+                            src="/assets/OnboardMerchantsImages/AcceptBitcoinImage.svg"
                             alt="Accept Bitcoin sticker"
-                            maxW={{ base: "250px", md: "300px", lg: "350px" }}
+                            maxW={{ base: "250px", md: "300px", lg: "300px", xl: "350px" }}
                             w="100%"
                             h="auto"
                         />
@@ -38,11 +38,11 @@ const OnboardMerchantsSection = () => {
                     {/* Right Side - Text Content */}
                     <Box 
                         flex="1" 
-                        maxW={{ base: "100%", lg: "600px" }}
+                        maxW={{ base: "100%", xl: "600px" }}
                     >
                         <Heading 
                             as="h2"
-                            fontSize={{ base: "32px", md: "40px", lg: "32px" }}
+                            fontSize={{ base: "32px", md: "40px", lg: "40px", xl: "32px" }}
                             fontWeight="700"
                             lineHeight="1.2"
                             mb={6}
@@ -53,7 +53,7 @@ const OnboardMerchantsSection = () => {
 
                         <Text 
                             fontSize={{ base: "16px", md: "20px" }}
-                            lineHeight="1.7"
+                            lineHeight="1.4"
                             mb={6}
                             color="black"
                         >
