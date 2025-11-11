@@ -23,12 +23,18 @@ const Header = () => {
                 >
                 {/* Logo Section */}
                 <Flex align="center">
-                    <Image 
-                        src="/assets/HeaderImages/logo.png" 
-                        alt="Bitcoin Merchant Community Logo" 
-                        h={{ base: "32px", sm: "36px", md: "50px", lg: "50px", xl: "60px" }}
-                        w="auto"
-                    />
+                    <ChakraLink
+                        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                        cursor="pointer"
+                        _hover={{ opacity: 0.8 }}
+                    >
+                        <Image
+                            src="/assets/HeaderImages/logo.png"
+                            alt="Bitcoin Merchant Community Logo"
+                            h={{ base: "32px", sm: "36px", md: "50px", lg: "50px", xl: "60px" }}
+                            w="auto"
+                        />
+                    </ChakraLink>
                 </Flex>
 
                 {/* Right Side Link */}
