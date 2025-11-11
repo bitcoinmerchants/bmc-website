@@ -5,13 +5,13 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://bitcoinmerchants.org'),
   title: "Bitcoin Merchant Community",
-  description: "Bitcoin Merchant Community - A global community of merchants who are passionate about accepting bitcoin to defeat credit card fees",
+  description: "The Bitcoin Merchant Community is a growing global community of small businesses helping one another defeat 3% credit card fees by accepting bitcoin",
   icons: {
     icon: '/favicon.ico',
   },
   openGraph: {
     title: "Bitcoin Merchant Community",
-    description: "Bitcoin Merchant Community - A global community of merchants who are passionate about accepting bitcoin to defeat credit card fees",
+    description: "The Bitcoin Merchant Community is a growing global community of small businesses helping one another defeat 3% credit card fees by accepting bitcoin",
     url: 'https://bitcoinmerchants.org',
     siteName: 'Bitcoin Merchant Community',
     images: [
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: "Bitcoin Merchant Community",
-    description: "Bitcoin Merchant Community - A global community of merchants who are passionate about accepting bitcoin to defeat credit card fees",
+    description: "The Bitcoin Merchant Community is a growing global community of small businesses helping one another defeat 3% credit card fees by accepting bitcoin",
     images: ['/assets/og-image.png'], // Same image works for Twitter
   },
   viewport: 'width=device-width, minimum-scale=1.0, maximum-scale=1.0',
