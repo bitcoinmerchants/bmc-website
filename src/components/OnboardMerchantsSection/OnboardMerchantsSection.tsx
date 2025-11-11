@@ -25,15 +25,14 @@ const OnboardMerchantsSection = () => {
                         display="flex"
                         justifyContent="center"
                         alignItems="center"
-                        maxW={{ base: "200px", sm: "250px", md: "300px", lg: "300px", xl: "350px" }}
-                        w="100%"
                     >
                         <Box
                             as="img"
                             src="/assets/OnboardMerchantsImages/AcceptBitcoinImage.svg"
                             alt="Accept Bitcoin sticker"
-                            width="100%"
-                            height="auto"
+                            maxW={{ base: "200px", sm: "250px", md: "300px", lg: "300px", xl: "350px" }}
+                            w="100%"
+                            h="auto"
                             sx={{
                                 imageRendering: 'auto',
                                 WebkitUserSelect: 'none',

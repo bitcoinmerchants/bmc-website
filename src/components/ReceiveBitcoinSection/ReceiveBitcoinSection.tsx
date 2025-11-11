@@ -57,15 +57,14 @@ const ReceiveBitcoinSection = () => {
                         display="flex"
                         justifyContent="center"
                         alignItems="center"
-                        maxW={{ base: "220px", sm: "280px", md: "350px", lg: "350px", xl: "400px" }}
-                        w="100%"
                     >
                         <Box
                             as="img"
                             src="/assets/ReceiveBitcoinImages/BitcoinButtonImage.svg"
                             alt="Bitcoin key"
-                            width="100%"
-                            height="auto"
+                            maxW={{ base: "220px", sm: "280px", md: "350px", lg: "350px", xl: "400px" }}
+                            w="100%"
+                            h="auto"
                             sx={{
                                 imageRendering: 'auto',
                                 WebkitUserSelect: 'none',

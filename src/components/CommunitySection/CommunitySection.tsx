@@ -129,15 +129,14 @@ const CommunitySection = () => {
                         justifyContent="center"
                         alignItems="center"
                         order={{ base: 2, xl: 1 }}
-                        maxW={{ base: "250px", sm: "300px", md: "350px", lg: "350px", xl: "350px" }}
-                        w="100%"
                     >
                         <Box
                             as="img"
                             src="/assets/CommunityImages/CommunitySectionImage.svg"
                             alt="Bitcoin merchant store"
-                            width="100%"
-                            height="auto"
+                            maxW={{ base: "250px", sm: "300px", md: "350px", lg: "350px", xl: "350px" }}
+                            w="100%"
+                            h="auto"
                             sx={{
                                 imageRendering: 'auto',
                                 WebkitUserSelect: 'none',
