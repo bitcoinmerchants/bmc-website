@@ -164,7 +164,7 @@ const AlternativePaymentSection = () => {
                     >
                         <Text as="span" fontWeight="700">Who makes the cut?</Text> We listen to merchants and spotlight solutions that are already popular and have a reputation for easy use. If there's a bitcoin point-of-sale solution we're missing,{' '}
                         <Link 
-                            href="hello@bitcoinmerchants.org" 
+                            href="mailto:bitcoinmerchants@spiral.xyz" 
                             color="black" 
                             fontWeight="700"
                             textDecoration="underline"
