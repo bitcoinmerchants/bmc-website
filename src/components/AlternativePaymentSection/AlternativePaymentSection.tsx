@@ -5,9 +5,9 @@ import { Box, Heading, Text, Flex, Container, Link, SimpleGrid, Image } from '@c
 
 const AlternativePaymentSection = () => {
     return (
-        <Box 
+        <Box
             id="alternative-payment"
-            bg="white" 
+            bg="white"
             py={{ base: "60px", md: "80px", lg: "100px" }}
             px={{ base: "20px", md: "40px", lg: "60px" }}
             borderTop="1px solid #E0E0E0"
@@ -15,7 +15,7 @@ const AlternativePaymentSection = () => {
             <Container>
                 {/* Introduction Text */}
                 <Box mb={{ base: "40px", md: "50px" }}>
-                    <Text 
+                    <Text
                         fontSize={{ base: "16px", md: "20px" }}
                         lineHeight="1.4"
                         mb={5}
@@ -25,7 +25,7 @@ const AlternativePaymentSection = () => {
                         <Text as="span" fontWeight="700">If you don't use Square</Text> or are outside the US, you'll need to pick a point-of-sale solution that accepts instant bitcoin payments. There are several to choose from.
                     </Text>
 
-                    <Text 
+                    <Text
                         fontSize={{ base: "16px", md: "20px" }}
                         lineHeight="1.4"
                         color="black"
@@ -36,14 +36,14 @@ const AlternativePaymentSection = () => {
                 </Box>
 
                 {/* Payment Solutions Grid */}
-                <SimpleGrid 
+                <SimpleGrid
                     columns={{ base: 1, md: 2 }}
                     spacing={{ base: "40px", md: "50px", lg: "60px" }}
                     mb={{ base: "40px", md: "50px" }}
                 >
                     {/* IBEX Pay */}
                     <Box>
-                        <Link 
+                        <Link
                             href="https://www.ibexpay.io/"
                             isExternal
                             display="flex"
@@ -53,14 +53,14 @@ const AlternativePaymentSection = () => {
                             _hover={{ opacity: 0.7 }}
                             transition="opacity 0.2s"
                         >
-                            <Image 
+                            <Image
                                 src="/assets/CompanyImages/ibexLogo.png"
                                 alt="IBEX Pay"
                                 maxW="180px"
                                 h="auto"
                             />
                         </Link>
-                        <Text 
+                        <Text
                             fontSize={{ base: "16px", md: "20px" }}
                             lineHeight="1.4"
                             color="black"
@@ -70,34 +70,7 @@ const AlternativePaymentSection = () => {
                         </Text>
                     </Box>
 
-                    {/* Blink
-                    <Box>
-                        <Link 
-                            href="https://www.blink.sv/"
-                            isExternal
-                            display="flex"
-                            alignItems="center"
-                            mb={4}
-                            height="60px"
-                            _hover={{ opacity: 0.7 }}
-                            transition="opacity 0.2s"
-                        >
-                            <Image 
-                                src="/assets/CompanyImages/blinkLogo.png"
-                                alt="Blink"
-                                maxW="120px"
-                                h="auto"
-                            />
-                        </Link>
-                        <Text 
-                            fontSize={{ base: "16px", md: "20px" }}
-                            lineHeight="1.4"
-                            color="black"
-                            maxW="450px"
-                        >
-                            Blink Wallet is a custodial bitcoin wallet for mobile with simple point-of-sale features and easy setup.
-                        </Text>
-                    </Box> */}
+
 
                     {/* Zaprite
                     <Box>
@@ -133,7 +106,7 @@ const AlternativePaymentSection = () => {
 
                     {/* BTCPay Server */}
                     <Box>
-                        <Link 
+                        <Link
                             href="https://btcpayserver.org/"
                             isExternal
                             display="flex"
@@ -143,7 +116,7 @@ const AlternativePaymentSection = () => {
                             _hover={{ opacity: 0.7 }}
                             transition="opacity 0.2s"
                         >
-                            <Image 
+                            <Image
                                 src="/assets/CompanyImages/btcpayserverLogo.svg"
                                 alt="BTCPay Server"
                                 maxW="300px"
@@ -153,13 +126,72 @@ const AlternativePaymentSection = () => {
                                 draggable={false}
                             />
                         </Link>
-                        <Text 
+                        <Text
                             fontSize={{ base: "16px", md: "20px" }}
                             lineHeight="1.4"
                             color="black"
                             maxW="450px"
                         >
                             For tech-savvy merchants, BTCPay Server is a highly customizable, open-source alternative that needs to be hosted on your own server, or one you trust.
+                        </Text>
+                    </Box>
+
+                    {/* manna pay */}
+                    <Box>
+                        <Link
+                            href="https://mannabitcoin.com/"
+                            isExternal
+                            display="flex"
+                            alignItems="center"
+                            mb={8}
+                            height="60px"
+                            _hover={{ opacity: 0.7 }}
+                            transition="opacity 0.2s"
+                        >
+                            <Image
+                                src="/assets/CompanyImages/mannaLogo.svg"
+                                alt="Manna Pay"
+                                maxW="120px"
+                                h="auto"
+                            />
+                        </Link>
+                        <Text
+                            fontSize={{ base: "16px", md: "20px" }}
+                            lineHeight="1.4"
+                            color="black"
+                            maxW="450px"
+                        >
+                            Manna is a simple mobile wallet with a built-in point-of-sale interface, allowing you to quickly start accepting instant bitcoin payments without providing any personal information.
+                        </Text>
+
+                    </Box>
+
+                    {/* Blink */}
+                    <Box>
+                        <Link
+                            href="https://www.blink.sv/"
+                            isExternal
+                            display="flex"
+                            alignItems="center"
+                            mb={8}
+                            height="60px"
+                            _hover={{ opacity: 0.7 }}
+                            transition="opacity 0.2s"
+                        >
+                            <Image
+                                src="/assets/CompanyImages/blinkLogo.png"
+                                alt="Blink"
+                                maxW="120px"
+                                h="auto"
+                            />
+                        </Link>
+                        <Text
+                            fontSize={{ base: "16px", md: "20px" }}
+                            lineHeight="1.4"
+                            color="black"
+                            maxW="450px"
+                        >
+                            Blink is a reliable mobile wallet for merchants, featuring a simple web-based point-of-sale interface for accepting instant bitcoin payments and has an optional stable-dollar account.
                         </Text>
                     </Box>
 
@@ -195,7 +227,7 @@ const AlternativePaymentSection = () => {
 
                 {/* Bottom Section */}
                 <Box>
-                    <Text 
+                    <Text
                         fontSize={{ base: "16px", md: "20px" }}
                         lineHeight="1.4"
                         mb={5}
@@ -203,9 +235,9 @@ const AlternativePaymentSection = () => {
                         maxW="450px"
                     >
                         <Text as="span" fontWeight="700">Who makes the cut?</Text> We listen to merchants and spotlight solutions that are already popular and have a reputation for easy use. If there's a bitcoin point-of-sale solution we're missing,{' '}
-                        <Link 
-                            href="mailto:bitcoinmerchants@spiral.xyz" 
-                            color="black" 
+                        <Link
+                            href="mailto:bitcoinmerchants@spiral.xyz"
+                            color="black"
                             fontWeight="700"
                             textDecoration="underline"
                             _hover={{ color: "#00A651" }}
@@ -215,7 +247,7 @@ const AlternativePaymentSection = () => {
                         .
                     </Text>
 
-                    <Text 
+                    <Text
                         fontSize={{ base: "16px", md: "20px" }}
                         lineHeight="1.4"
                         color="black"
@@ -223,9 +255,9 @@ const AlternativePaymentSection = () => {
                         mb={5}
                     >
                         If you want to learn more about getting up and running with one of these options, join our friendly{' '}
-                        <Link 
-                            href="https://www.facebook.com/groups/bitcoinmerchants/" 
-                            color="black" 
+                        <Link
+                            href="https://www.facebook.com/groups/bitcoinmerchants/"
+                            color="black"
                             fontWeight="700"
                             textDecoration="underline"
                             _hover={{ color: "#00A651" }}
@@ -234,7 +266,7 @@ const AlternativePaymentSection = () => {
                         </Link>
                         .
                     </Text>
-                    <Text 
+                    <Text
                         fontSize={{ base: "16px", md: "20px" }}
                         lineHeight="1.4"
                         color="black"
@@ -243,7 +275,7 @@ const AlternativePaymentSection = () => {
                     >
                         Since there’s a chance that your existing point-of-sale provider doesn’t accept bitcoin payments at this time, reach out and ask them to add support. Be the squeaky wheel.
                     </Text>
-                    <Text 
+                    <Text
                         fontSize={{ base: "16px", md: "20px" }}
                         lineHeight="1.4"
                         color="black"
