@@ -54,7 +54,7 @@ const Header = () => {
                             opacity: 0.8
                         }}
                     >
-                        Help us spread the word. Download a kit.
+                        Help spread the word
                     </ChakraLink>
                 </Flex>
                 </Flex>

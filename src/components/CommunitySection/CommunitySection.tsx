@@ -16,7 +16,7 @@ const CommunitySection = () => {
                     direction={{ base: "column", xl: "row" }}
                     align="center"
                     justify="space-between"
-                    gap={{ base: "40px", lg: "40px", xl: "120px" }}
+                    gap={{ base: "40px", lg: "40px", xl: "140px" }}
                 >
                     {/* Text Content */}
                     <Box 
