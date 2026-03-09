@@ -2,12 +2,11 @@
 
 import React from 'react';
 import { Box, Heading, Text, Flex, Container, Link, Image } from '@chakra-ui/react';
-import { ExternalLinkIcon } from '@chakra-ui/icons';
 
 const LocalChampionSection = () => {
     return (
         <Box 
-            bg="white" 
+            bg="#F5F5F5"
             py={{ base: "60px", md: "80px", lg: "100px" }}
             px={{ base: "20px", md: "40px", lg: "60px" }}
         >
@@ -18,11 +17,11 @@ const LocalChampionSection = () => {
                     justify="space-between"
                     gap={{ base: "40px", lg: "40px", xl: "80px" }}
                 >
-                    {/* Left Side - Text Content */}
-                    <Box 
-                        flex="1" 
+                    {/* Right Side (on desktop) - Text Content */}
+                    <Box
+                        flex="1"
                         maxW={{ base: "100%", xl: "600px" }}
-                        order={{ base: 1, xl: 1 }}
+                        order={{ base: 1, xl: 2 }}
                     >
                         <Heading 
                             as="h2"
@@ -35,38 +34,28 @@ const LocalChampionSection = () => {
                             Become a Local Champion
                         </Heading>
 
-                        <Text 
+                        <Text
                             fontSize={{ base: "16px", md: "20px" }}
                             lineHeight="1.4"
                             mb={4}
                             maxW={{ base: "100%", xl: "450px" }}
                             color="black"
                         >
-                            Apply now to help bitcoin grow in a unique and memorable way.
+                            Don't see a Local Champion near you? That might be your sign to become one.
                         </Text>
 
-                        <Text 
-                            fontSize={{ base: "16px", md: "20px" }}
-                            lineHeight="1.4"
-                            mb={4}
-                            maxW={{ base: "100%", xl: "440px" }}
-                            color="black"
-                        >
-                            We're looking for natural leaders with deep connections to their local community who can help spread the word about how bitcoin benefits small businesses.
-                        </Text>
-
-                        <Text 
+                        <Text
                             fontSize={{ base: "16px", md: "20px" }}
                             lineHeight="1.4"
                             mb={6}
                             maxW={{ base: "100%", xl: "440px" }}
                             color="black"
                         >
-                            If accepted, we'll send you a box of free Itty Bitty plushies and leave-behind materials that you can use to onboard local merchants or distribute to bitcoiners doing the same.
+                            We're looking for natural leaders with deep connections to their local community. If accepted, we'll send you a box of free Itty Bitty plushies and leave-behind materials to help you onboard merchants and distribute to bitcoiners doing the same.
                         </Text>
 
-                        <Link 
-                            href="https://tally.so/r/Bzz5qQ" 
+                        <Link
+                            href="/apply"
                             fontSize={{ base: "16px", md: "20px" }}
                             fontWeight="700"
                             color="black"
@@ -75,20 +64,18 @@ const LocalChampionSection = () => {
                             alignItems="center"
                             gap={2}
                             _hover={{ color: "#00A651" }}
-                            isExternal
                         >
                             Apply to become a Local Champion
-                            <ExternalLinkIcon />
                         </Link>
                     </Box>
 
-                    {/* Right Side - Itty Bitty Image */}
-                    <Box 
+                    {/* Left Side (on desktop) - Itty Bitty Image */}
+                    <Box
                         flex="1"
                         display="flex"
                         justifyContent="center"
                         alignItems="center"
-                        order={{ base: 2, xl: 2 }}
+                        order={{ base: 2, xl: 1 }}
                     >
                         <Image
                             src="/assets/LocalChampionImages/LocalChampion.png"

@@ -10,6 +10,7 @@ import ReceiveBitcoinSection from "@/components/ReceiveBitcoinSection/ReceiveBit
 import AcceptBitcoinSection from "@/components/AcceptBitcoinSection/AcceptBitcoinSection";
 import AlternativePaymentSection from "@/components/AlternativePaymentSection/AlternativePaymentSection";
 import OnboardMerchantsSection from "@/components/OnboardMerchantsSection/OnboardMerchantsSection";
+import FindChampionSection from "@/components/FindChampionSection/FindChampionSection";
 import LocalChampionSection from "@/components/LocalChampionSection/LocalChampionSection";
 import FAQSection from "@/components/FAQSection/FAQSection";
 import Footer from "@/components/Footer/Footer";
@@ -25,6 +26,7 @@ const Home = () => {
       <AcceptBitcoinSection />
       <AlternativePaymentSection />
       <OnboardMerchantsSection />
+      <FindChampionSection />
       <LocalChampionSection />
       <FAQSection />
       <Footer />
