@@ -7,7 +7,7 @@ const HeroSection = () => {
     return (
         <Box 
             bg="white" 
-            pt={{ base: "100px", md: "130px", lg: "130px", xl: "170px" }}
+            pt={{ base: "100px", md: "130px", lg: "130px", xl: "130px" }}
             pb={{ base: "30px", md: "50px", lg: "50px", xl: "45px" }}
             px={{ base: "20px", md: "40px", lg: "40px", xl: "60px" }}
         >
@@ -49,31 +49,10 @@ const HeroSection = () => {
                             by accepting bitcoin.
                         </Text>
 
-                       
-                    </Box>
-
-                    {/* Right Side - 3D Image */}
-                    <Box 
-                        flex="1"
-                        display="flex"
-                        justifyContent="center"
-                        alignItems="center"
-                        width={{ base: "280px", sm: "400px", md: "500px", lg: "600px", xl: "800px" }}
-                        maxW="100%"
-                    >
-                        <Box
-                            as="img"
-                            src="/assets/HeroImages/HeroImage.png"
-                            alt="3% melting"
-                            width="100%"
-                            height="auto"
-                        />
-                    </Box>
-                </Flex>
-                 {/* Buttons */}
-                 <Flex 
-                            gap={{ base: "20px", md: "30px", lg: "30px", xl: "20px" }} 
-                            mt={{ base: "40px", md: "50px", lg: "50px", xl: "20px" }}
+                        {/* Buttons */}
+                        <Flex
+                            gap={{ base: "20px", md: "30px", lg: "30px", xl: "20px" }}
+                            mt={{ base: "15px", md: "10px", lg: "10px", xl: "20px" }}
                             direction="row"
                             flexWrap="wrap"
                             align="center"
@@ -84,10 +63,11 @@ const HeroSection = () => {
                                 href="#accept-bitcoin"
                                 bg="#FFC533"
                                 color="black"
-                                fontSize={{ base: "14px", md: "16px", lg: "16px", xl: "16px" }}
+                                fontSize={{ base: "14px", md: "16px", lg: "16px", xl: "13px" }}
                                 fontWeight="700"
                                 textTransform="uppercase"
-                                width={{ base: "100%", md: "300px", lg: "300px", xl: "326px" }}
+                                width={{ base: "100%", md: "300px", lg: "300px", xl: "auto" }}
+                                px={{ xl: "16px" }}
                                 height="46px"
                                 borderRadius="5px"
                                 border="2px solid #000"
@@ -105,10 +85,11 @@ const HeroSection = () => {
                                 onClick={() => window.open("https://www.facebook.com/groups/bitcoinmerchants/", "_blank")}
                                 bg="white"
                                 color="black"
-                                fontSize={{ base: "14px", md: "16px", lg: "16px", xl: "16px" }}
+                                fontSize={{ base: "14px", md: "16px", lg: "16px", xl: "13px" }}
                                 fontWeight="700"
                                 textTransform="uppercase"
-                                width={{ base: "100%", md: "300px", lg: "300px", xl: "326px" }}
+                                width={{ base: "100%", md: "300px", lg: "300px", xl: "auto" }}
+                                px={{ xl: "16px" }}
                                 height="46px"
                                 borderRadius="5px"
                                 border="2px solid #000"
@@ -122,6 +103,26 @@ const HeroSection = () => {
                                 JOIN OUR FACEBOOK COMMUNITY
                             </Button>
                         </Flex>
+                    </Box>
+
+                    {/* Right Side - 3D Image */}
+                    <Box
+                        flex="1"
+                        display="flex"
+                        justifyContent="center"
+                        alignItems="center"
+                        width={{ base: "280px", sm: "400px", md: "500px", lg: "600px", xl: "800px" }}
+                        maxW="100%"
+                    >
+                        <Box
+                            as="img"
+                            src="/assets/HeroImages/HeroImage.png"
+                            alt="3% melting"
+                            width="100%"
+                            height="auto"
+                        />
+                    </Box>
+                </Flex>
             </Container>
         </Box>
     );
