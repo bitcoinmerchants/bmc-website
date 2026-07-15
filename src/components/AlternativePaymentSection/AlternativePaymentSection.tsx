@@ -136,36 +136,6 @@ const AlternativePaymentSection = () => {
                         </Text>
                     </Box>
 
-                    {/* manna pay */}
-                    <Box>
-                        <Link
-                            href="https://mannabitcoin.com/"
-                            isExternal
-                            display="flex"
-                            alignItems="center"
-                            mb={8}
-                            height="60px"
-                            _hover={{ opacity: 0.7 }}
-                            transition="opacity 0.2s"
-                        >
-                            <Image
-                                src="/assets/CompanyImages/mannaLogo.svg"
-                                alt="Manna Pay"
-                                maxW="120px"
-                                h="auto"
-                            />
-                        </Link>
-                        <Text
-                            fontSize={{ base: "16px", md: "20px" }}
-                            lineHeight="1.4"
-                            color="black"
-                            maxW="450px"
-                        >
-                            Manna is a simple mobile wallet with a built-in point-of-sale interface, allowing you to quickly start accepting instant bitcoin payments without providing any personal information.
-                        </Text>
-
-                    </Box>
-
                     {/* Blink */}
                     <Box>
                         <Link
