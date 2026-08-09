@@ -1,0 +1,75 @@
+# Bitcoin Merchant Community
+
+> This is the agent-friendly navigation document (llms.txt) for the Bitcoin Merchant Community website. It provides a structured overview of all public content available at bitcoinmerchants.org.
+
+The Bitcoin Merchant Community (BMC) is a growing global community of small businesses helping one another defeat 3% credit card fees by accepting bitcoin. It is supported by Block's Spiral division, which funds open-source bitcoin tools and promotes bitcoin adoption globally.
+
+## Main Website
+
+- [Home](https://bitcoinmerchants.org/): The Bitcoin Merchant Community — helping small businesses keep more of their profit by accepting bitcoin payments instead of credit cards.
+- [Apply to Become a Local Champion](https://bitcoinmerchants.org/apply): Application page for bitcoiners who want to become Local Champions — community leaders who distribute onboarding materials and plushies to merchants and fellow bitcoiners in their area.
+
+## Sections
+
+### Hero
+The BMC helps small businesses keep more of their profit. The Bitcoin Merchant Community is a growing global community of small businesses helping one another defeat 3% credit card fees by accepting bitcoin.
+
+### Connect with the Community
+Thousands of merchants in the US and around the world already accept bitcoin payments. The BMC Facebook Group lets merchants learn from one another's experiences. BTC Map (btcmap.org) is a collaborative, open-source directory that shows bitcoin-friendly merchants on a map.
+
+- [BMC Facebook Group](https://www.facebook.com/groups/bitcoinmerchants/): Community group for merchants and bitcoiners to share experiences and tips.
+- [BTC Map](https://btcmap.org/map): Find and list bitcoin-accepting merchants near you.
+
+### How to Accept Bitcoin (Square)
+If you already use Square, you can start accepting bitcoin today with just a few taps. Steps:
+- On Square POS device: Settings > Checkout > Payments > Activate Bitcoin (requires POS software 6.81+).
+- On web: Dashboard > Banking > Bitcoin > Get Started.
+- Choose to settle payments in bitcoin or auto-convert to dollars (0% fee until 2027, then 1%).
+- Optionally appear on a map of bitcoin-accepting merchants.
+- Get a free Bitcoin Marketing Kit from Square Shop.
+
+### Alternative Payment Solutions (non-Square / non-US)
+For merchants not using Square or outside the US, the BMC recommends:
+
+- [IBEX Pay](https://www.ibexpay.io/): A web-based bitcoin point-of-sale solution that works on any device with a browser.
+- [BTCPay Server](https://btcpayserver.org/): A highly customizable, open-source self-hosted POS solution for tech-savvy merchants.
+- [Manna](https://mannabitcoin.com/): A simple mobile wallet with a built-in POS interface; no personal information required to start.
+- [Blink](https://www.blink.sv/): A reliable mobile wallet with a simple web-based POS interface and an optional stable-dollar account.
+
+Contact bitcoinmerchants@spiral.xyz to suggest additional POS solutions.
+
+### Onboard Merchants (for Bitcoiners)
+Bitcoiners can download a free ready-to-print Merchant Onboarding Kit containing a 1-page leave-behind and a guide to confidently onboard merchants.
+
+- [Download Merchant Onboarding Kit](https://raw.githubusercontent.com/bitcoinmerchants/marketing-assets/main/Merchant%20Onboarding%20Kit.pdf): Free PDF kit for helping local businesses accept bitcoin.
+- [BMC Bitcoiner Discord](https://discord.gg/f2xHv5QYK7): Community Discord for bitcoiners advocating for bitcoin merchant adoption.
+
+### Find a Local Champion
+Local Champions are community leaders who have free Itty Bitty plushies and leave-behind materials to help merchants get started. Use the interactive map on the BMC website to find a Local Champion near you.
+
+### Become a Local Champion
+The BMC is looking for natural leaders with deep connections to their local community. Accepted champions receive a free box of Itty Bitty plushies and leave-behind materials (25 plushies; box is 26x18x17 inches, 12 lbs). Requirements: active in your local bitcoin community, well-connected locally, able to store assets, and willing to share feedback in the BMC Discord.
+
+- [Apply to Become a Local Champion](https://bitcoinmerchants.org/apply): Application form for prospective Local Champions worldwide (US participants may be prioritized due to shipping).
+
+## Frequently Asked Questions
+
+- **What is bitcoin?** Bitcoin is a secure digital currency that lets you send, spend, and save money without relying on banks or other third parties — just like cash.
+- **What are bitcoin payments?** Accept bitcoin by offering customers a QR code invoice at checkout that they scan to pay from their bitcoin wallet instantly.
+- **What are the fees?** With Square: 0% until 2027, then 1%. Other systems generally range from 0.4% to 1% — always less than credit card fees.
+- **What about bitcoin's volatility?** Enable auto-conversions on Square to capture the merchant benefit (no 3% fees) without exposure to short-term price volatility.
+- **How are bitcoin payments taxed?** Consult a tax advisor. Square merchants have tax documentation automatically generated in their dashboard. Capital gains taxes may apply if you hold bitcoin.
+- **How is tipping handled?** The tip amount is defined by the customer before the QR code invoice is generated; some POS systems segregate tips by account, others aggregate them.
+- **Why would customers pay in bitcoin?** Bitcoin spenders view it as the fairest way to pay. Offering discounts for bitcoin purchases can attract additional customers.
+- **More questions?** Ask in the [BMC Facebook Group](https://www.facebook.com/groups/bitcoinmerchants/).
+
+## Links & Resources
+
+- [Website](https://bitcoinmerchants.org)
+- [GitHub](https://github.com/bitcoinmerchants)
+- [Facebook Group](https://www.facebook.com/groups/bitcoinmerchants/)
+- [Discord](https://discord.gg/f2xHv5QYK7)
+- [BTC Map](https://btcmap.org)
+- [Square Bitcoin Setup Guide](https://squareup.com/us/en/bitcoin)
+- [Merchant Onboarding Kit PDF](https://raw.githubusercontent.com/bitcoinmerchants/marketing-assets/main/Merchant%20Onboarding%20Kit.pdf)
+- Contact: bitcoinmerchants@spiral.xyz
